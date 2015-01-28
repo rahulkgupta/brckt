@@ -1,0 +1,37 @@
+{
+  "name": "brckt",
+  "tags": [
+    "http",
+    "simple",
+    "util",
+    "rest",
+    "sdk"
+  ],
+  "version": "0.1.2",
+  "description": "Simplified SDK creation",
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "q": "^1.0.1",
+    "request": "^2.44.0"
+  },
+  "main": "brckt.js",
+  "files": [
+    "brckt.js",
+    "LICENSE.md",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository" : {
+    "type": "git",
+    "url": "https://github.com/okta/brckt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/okta/brckt/issues"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "nock": "^0.48.0"
+  }
+}
